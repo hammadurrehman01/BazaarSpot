@@ -1,6 +1,8 @@
 
+import { lazy } from 'react';
 import './App.css'
-import Router from './router/Router'
+const Router = lazy(()=> import('./router/Router'));
+
 function App() {
   return (
     <div >

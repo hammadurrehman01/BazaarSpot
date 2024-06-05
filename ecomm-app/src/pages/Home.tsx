@@ -1,8 +1,13 @@
+import { lazy } from "react";
+
+const Header = lazy(()=> import ("../components/Header/Header"));
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
 
