@@ -1,9 +1,10 @@
 
-import {Navbar} from '../index'
+import {HeaderTop, Navbar} from '../index'
 
 const Header = () => {
   return (
     <div>
+      <HeaderTop/>
         <Navbar />
     </div>
   )
