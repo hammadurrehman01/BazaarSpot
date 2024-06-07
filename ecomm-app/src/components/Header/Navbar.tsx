@@ -5,17 +5,17 @@ import { navbarItems } from "../../Utlis/InterfaceObj";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="flex justify-evenly items-center w-full ">
       <div>
       <Logo/>
       </div>
-      <div>
+      <div className="">
       {
         navbarItems.map((items)=>(
-          <ul>
+          <ul className="flex gap-10">
             {
               items.items.map((navLink)=>(
-                <li key={navLink.id}>
+                <li key={navLink.id} className="text-[1.100rem]">
                   <Link to={navLink.id}>
                   {
                     navLink.name
