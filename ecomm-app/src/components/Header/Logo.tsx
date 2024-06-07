@@ -1,7 +1,9 @@
 
 const Logo = () => {
   return (
-    <div>Hey I am Logo</div>
+    <div>
+      <h1>Exclusive</h1>
+    </div>
   )
 }
 

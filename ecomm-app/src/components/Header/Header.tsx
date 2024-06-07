@@ -1,6 +1,5 @@
-import { lazy } from 'react';
 
-const Navbar = lazy(() => import('./Navbar'));
+import {Navbar} from '../index'
 
 const Header = () => {
   return (

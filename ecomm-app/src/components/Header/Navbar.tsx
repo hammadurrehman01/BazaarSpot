@@ -1,9 +1,15 @@
-
+import { Logo } from "..";
 
 
 const Navbar = () => {
   return (
-    <div>Hello i am Navbar</div>
+    <nav>
+      <div>
+      <Logo/>
+      </div>
+
+      
+    </nav>
   )
 }
 
