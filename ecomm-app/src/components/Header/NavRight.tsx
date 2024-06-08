@@ -5,7 +5,7 @@ import CartIcon from '../../assets/images/CartIcon.svg';
 const NavRight = () => {
     return (
         <div className='flex py-4 gap-8'>
-            <div className="relative flex items-center w-full max-w-lg bg-[var(--mainSecondaryLightWhite)] ">
+            <div className="relative flex items-center w-full max-w-lg bg-[var(--mainSecondaryLightWhite)] shadow-lg">
                 <input 
                     type="text" 
                     placeholder="What are you looking for?" 

@@ -6,7 +6,11 @@ const Header = lazy(()=> import("./Header/Header"));
 const LanguageChanger =   lazy(()=> import("./Header/LanguageChanger"));
 const HeaderTop =   lazy(()=> import("./Header/HeaderTop"));
 const NavRight = lazy(()=> import("./Header/NavRight"));
+const HeroLeft = lazy(()=> import("./Hero/HeroLeft"));
+const HeroImgRightWihCont = lazy(()=> import("./Hero/HeroImgRightWihCont"));
+
+
 
 export {
-    Navbar,Logo,Header,LanguageChanger,HeaderTop,NavRight
+    Navbar,Logo,Header,LanguageChanger,HeaderTop,NavRight,HeroLeft,HeroImgRightWihCont
 }
