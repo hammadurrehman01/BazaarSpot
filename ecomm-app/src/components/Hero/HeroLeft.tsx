@@ -1,4 +1,3 @@
-import { HeroImgRightWihCont } from '..';
 import DropDown from '../../assets/images/DropDown.svg';
 
 interface SideList {
