@@ -5,7 +5,7 @@ import { navbarItems } from "../../Utlis/InterfaceObj";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-evenly items-center w-full ">
+    <nav className="flex justify-evenly items-center w-full border-b-2 ">
       <div>
       <Logo/>
       </div>

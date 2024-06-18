@@ -48,7 +48,7 @@ const HeroLeft = () => {
     //     </div>
         
     //   </div>
-    <div className="flex max-w-[365px] w-full">
+    <div className="flex max-w-[365px] w-full border-r-2">
     <div className="relative flex justify-end p-4 w-full">
         {sideListCategory.map((item, index) => (
             <ul key={index} className="">

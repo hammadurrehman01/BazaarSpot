@@ -9,7 +9,7 @@ interface CircleProps {
 
 const Circle = ({ activeSlide, handleDotClick, slide }: CircleProps) => {
     return (
-        <div className="absolute text-pink-950 mt-16 flex justify-center w-[700px]">
+        <div className="     text-pink-950 max-w-[800px]  mt-10 flex justify-center ">
             <div className="flex items-center gap-2">
                 {slide.map((_, index) => (
                     <div
