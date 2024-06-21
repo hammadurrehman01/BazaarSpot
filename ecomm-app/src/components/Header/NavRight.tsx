@@ -49,7 +49,7 @@ const NavRight = () => {
             <div className="flex items-center ml-4">
                 <div className='relative '>
                     {/* <span className=' absolute right-[45%] rounded-full bg-red-500  text-[var(--mainSecondaryRedish)] font-bold'>4</span> */}
-                    <span className='absolute p-2 right-[20%] rounded-full bg-red-500 text-white font-bold border-2 border-white flex items-center justify-center w-[22px] h-[22px]'>
+                    <span className='absolute p-2 right-[25%] rounded-full bg-red-500 text-white text-[10px] font-bold border-2 border-white flex items-center justify-center w-[20px] h-[20px]'>
                         4
                     </span>
                     <Link to={'#'}> <img src={WishList} alt="wishlist" width={33} className="mr-4" /></Link>

@@ -8,12 +8,11 @@ const HeaderTop =   lazy(()=> import("./Header/HeaderTop"));
 const NavRight = lazy(()=> import("./Header/NavRight"));
 const HeroLeft = lazy(()=> import("./Hero/HeroLeft"));
 const HeroImgRightWihCont = lazy(()=> import("./Hero/HeroImgRightWihCont"));
-
-const Circle = lazy(()=> import("./Hero/Circle"));
+const TodaysFlashSaleCont = lazy(()=> import("./TodaysFlashSales/TodaysFlashSaleCont"));
 
 
 
 export {
     Navbar,Logo,Header,LanguageChanger,HeaderTop,NavRight,HeroLeft,HeroImgRightWihCont
-    ,Circle
+    ,TodaysFlashSaleCont
 }
