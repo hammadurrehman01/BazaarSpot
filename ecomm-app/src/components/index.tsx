@@ -9,10 +9,12 @@ const NavRight = lazy(()=> import("./Header/NavRight"));
 const HeroLeft = lazy(()=> import("./Hero/HeroLeft"));
 const HeroImgRightWihCont = lazy(()=> import("./Hero/HeroImgRightWihCont"));
 const TodaysFlashSaleCont = lazy(()=> import("./TodaysFlashSales/TodaysFlashSaleCont"));
+const FlashSalesCard = lazy(()=> import("./TodaysFlashSales/FlashSalesCard"));
+
 
 
 
 export {
     Navbar,Logo,Header,LanguageChanger,HeaderTop,NavRight,HeroLeft,HeroImgRightWihCont
-    ,TodaysFlashSaleCont
+    ,TodaysFlashSaleCont,FlashSalesCard
 }

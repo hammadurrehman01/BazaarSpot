@@ -13,6 +13,11 @@ import WirelessSpeaker from '../assets/images/WirlessSpeaker.png';
 import GucchiPerfume from '../assets/images/Gucchiperfume.png';
 
 
+import ConsoleImg from '../assets/images/consoleRed.png'
+import { IconType } from 'react-icons';
+import { FaRegHeart } from 'react-icons/fa6';
+import { AiOutlineEye } from 'react-icons/ai';
+
 
 // Navbar Items Interface
 interface NavLink {
@@ -90,6 +95,66 @@ export const slide: Slide[] = [
   ]
 
 
+
+  export interface Product {
+    mainImg: string;
+    img1HertIcon:IconType;
+    img2EyeIcon:IconType;
+    discountText: string;
+    productName: string;
+    price: string;
+    oldPrice: string;
+    rating: number;
+    ratingCount: number;
+  }
+  
+  export const products: Product[] = [
+    {
+      mainImg: ConsoleImg,
+      img1HertIcon: FaRegHeart,
+      img2EyeIcon:AiOutlineEye,
+      discountText: '- 40%',
+      productName: 'HAVIT HV-G92 Gamepad',
+      price: '$120',
+      oldPrice: '$160',
+      rating: 4.5,
+      ratingCount: 88,
+    },
+    {
+      mainImg: ConsoleImg,
+      img1HertIcon: FaRegHeart,
+      img2EyeIcon:AiOutlineEye,
+      discountText: '- 40%',
+      productName: 'HAVIT HV-G92 Gamepad',
+      price: '$120',
+      oldPrice: '$160',
+      rating: 4.5,
+      ratingCount: 88,
+    },
+    {
+      mainImg: ConsoleImg,
+      img1HertIcon: FaRegHeart,
+      img2EyeIcon:AiOutlineEye,
+      discountText: '- 40%',
+      productName: 'HAVIT HV-G92 Gamepad',
+      price: '$120',
+      oldPrice: '$160',
+      rating: 4.5,
+      ratingCount: 88,
+    },
+    {
+      mainImg: ConsoleImg,
+      img1HertIcon: FaRegHeart,
+      img2EyeIcon:AiOutlineEye,
+      discountText: '- 40%',
+      productName: 'HAVIT HV-G92 Gamepad',
+      price: '$120',
+      oldPrice: '$160',
+      rating: 4.5,
+      ratingCount: 88,
+    },
+    
+  ];
 
 
           {/* <Circle activeSlide={activeSlide} handleDotClick={handleDotClick} slide={slide} /> */}

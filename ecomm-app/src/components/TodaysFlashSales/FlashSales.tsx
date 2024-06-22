@@ -1,9 +1,10 @@
-import { TodaysFlashSaleCont } from "../index";
+import { FlashSalesCard, TodaysFlashSaleCont } from "../index";
 
 const FlashSales = () => {
   return (
     <div className="mt-10">
         <TodaysFlashSaleCont/>
+        <FlashSalesCard/>
     </div>
   )
 }
